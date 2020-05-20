@@ -18,7 +18,7 @@ const product={
             product.insertAdjacentHTML("beforeend", productsList);
         }
     },
-    renderProduct(title = 'Gamepad', price = 50){
+    renderProduct(title = 'Notebook', price = 2000){
         return `<div class="product-item">
                 <h3>${title}</h3>
                 <p>${price}</p>
