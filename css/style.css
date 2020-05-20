@@ -1,0 +1,31 @@
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    background: red;
+}
+header button {
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/icons8-корзина-30.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+main {
+    width: 100%;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-item {
+    width: 25%;
+    text-align: center;
+}
