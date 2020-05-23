@@ -9,12 +9,43 @@
 <div class="container">
     <header>
         <button class="btn-cart" type="button"></button>
+        <div class="basketPanel" style="display: none">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Имя</th>
+                    <th scope="col">Цена</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col"></th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>NoteBook</td>
+                    <td>2000</td>
+                    <td class="productCount">1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>GamePad</td>
+                    <td>50</td>
+                    <td class="productCount">1</td>
+                </tr>
+                </thead>
+                <tbody></tbody>
+                <tfoot>
+                <tr>
+                    <th colspan="2" scope="row">Итого:</th>
+                    <td colspan="3"><span class="total">0</span></td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
     </header>
     <main>
         <div class="products"></div>
     </main>
 </div>
-
-<script src="src/main.js"></script>
+<script src="dist/app.js"></script>
 </body>
 </html>
