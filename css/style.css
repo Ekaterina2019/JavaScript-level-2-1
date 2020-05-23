@@ -9,6 +9,7 @@ header{
     display: flex;
     justify-content: flex-end;
     background: red;
+    position: relative;
 }
 header button {
     width: 50px;
@@ -17,8 +18,15 @@ header button {
     background-repeat: no-repeat;
     background-position: center;
 }
+.basketPanel {
+    display: none;
+    position: absolute;
+    top: 55px;
+    background-color: lightgray;
+}
 main {
-    width: 100%;
+    margin: 0 auto;
+    width: 70%;
 }
 .products {
     display: flex;
