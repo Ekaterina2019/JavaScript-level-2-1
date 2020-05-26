@@ -1,15 +1,16 @@
 class Item {
     constructor(product) {
-        this.title = product.title;
-        this.id = product.id;
+        this.title = product.product_name;
+        this.id = product.id_product;
         this.price = product.price;
     }
 
     renderProduct() {
         return `<div class="product-item">
-                <h3>${this.title}</h3>
+                <p>${this.id}</p>
+                <p>${this.title}</p>
                 <p>${this.price}</p>
-                <button class="buy-btn">Купить</button>
+                <button data-price="${this.price}" data-title="${this.title}" data-id="${this.id}" class="buy-btn">Купить</button>
             </div>`
     }
 }
