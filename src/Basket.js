@@ -1,3 +1,5 @@
+'use strict';
+
 class Basket{
     constructor() {
         this.products = {}
