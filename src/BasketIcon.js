@@ -1,5 +1,3 @@
-'use strict';
-
 class BasketIcon {
     constructor() {
         this.basketIconEl = document.querySelector('.basketPanel')
